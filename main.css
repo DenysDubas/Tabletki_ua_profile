@@ -1,0 +1,8 @@
+@import './styles/utils/resets.css';
+@import './styles/utils/normalize.css';
+@import './styles/header.css';
+@import './styles/menu.css';
+@import './styles/section_main.css';
+@import './styles/accordion.css';
+@import './styles/dropdown.css';
+@import './styles/footer.css';

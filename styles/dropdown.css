@@ -1,0 +1,213 @@
+.dropdown {
+    display: none;
+    width: 100%;
+    background: #FFF;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown_orders {
+    width: 60%;
+}
+
+.dropdown_order_header {
+    padding: 8px 16px;
+    background: #D9EFD4;
+    color: #111;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dropdown_order_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.dropdown_order_title_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.pill_img {
+    width: 68px;
+    height: 68px;
+}
+
+.title_discr_pill_name {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.title_discr_producer {
+    color: #888;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.receipt_img {
+   padding: 8px 0; 
+}
+
+.title_discr_total_package {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dropdown_order_title_price {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dropdown_orders_total_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #D9EFD4;
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.all_price {
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.dropdown_path {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 24px 20px;
+    border-left: 1px solid #D9EFD4;
+}
+
+.path_booking_date_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.path_booking_date_message {
+    width: 159px;
+    padding: 8px 16px;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    background: #FEFACF;
+}
+
+.path_booking_date_imgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.path_booking_date_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.path_proccesing {
+    display: flex;
+    flex-direction: row;
+}
+
+.path_proccesing_imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.dot_img {
+    width: 2px;
+    height: 20px;
+}
+
+.path_proccesing_info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 20px;
+    color: #888;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+
+.path_detele {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    gap: 16px;
+    color: #FF6262;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 767px) {
+
+    .dropdown_phone {
+        display: none;
+        width: 100%;
+        background: #FFF;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .dropdown_container {
+        flex-direction: column;
+    }
+    .dropdown_path {
+        width: calc(100% - 40px);
+    }
+    .dropdown_orders {
+        width: 100%;
+    }
+}

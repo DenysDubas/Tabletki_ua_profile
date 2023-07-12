@@ -1,0 +1,350 @@
+.main_section {
+    display: flex;
+    width: calc(100% - 385px);
+    background: #fff;
+}
+
+.main_section_container {
+    width: 100%;
+    padding: 32px 79px 32px 20px; 
+    text-align: left;
+    overflow: hidden;
+}
+
+.main_section_header {
+    color: #000;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.order_container {
+    width: calc(100% - 32px);
+    padding: 16px;
+    border-radius: 8px;
+    background: #EEF7EB;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.20);
+}
+
+.order_title_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.order_title_data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 289px;
+}
+
+.data_date_container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.booking {
+    color:  #3B9C25;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 8px;
+    border-radius: 4px;
+    border: 1px solid #3B9C25;
+    background: #FFF;
+}
+
+.booking_date {
+    padding-top: 1px;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.orders_list {
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.order_title_location_info {
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pharmacy_name {
+    display: flex;
+    gap: 4px;
+}
+
+.order_total_container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.order_total {
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info_message {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 16px;
+    margin-top: 10px;
+    max-width: 522px;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    background: #FEFACF;
+}
+
+.phone {
+    display: none;
+}
+
+.dropdown_phone {
+    display: none;
+}
+
+.back_personal_office_container {
+    display: none;
+}
+
+.back_personal_office_active {
+    display: none;
+}
+
+
+@media (max-width: 1177px) {
+    .sections_container {
+        height: max-content;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .main_section {
+        width: 100%;
+        min-height: 661px;
+    }
+
+    .main_section_container {
+        padding: 20px;
+    }
+
+    .personal_office {
+        padding: 0px 8px;
+        border-radius: 4px;
+        border: 1px solid #F2F2F2;
+        background: #F2F2F2;
+        color: #888;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .order_title {
+        gap: 0px;
+    }
+
+    .order_title_data {
+        width: 275px;
+    }
+
+    .blur_background {
+        filter: blur(12px);
+        overflow: hidden;
+    }
+
+    .back_personal_office_container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .phone {
+        display: flex;
+        box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.20);
+        margin-bottom: 24px;
+    }
+
+    .main_section {
+        width: 100%;
+    }
+    
+    .main_section_container {
+        padding: 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .info_message {
+        width: auto;
+        max-width: 522px;
+        margin-bottom: 10px;
+    }
+
+    .order_container {
+        width: calc(100% - 32px);
+        border-radius: 8px;
+    }
+
+    .order_title_wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .order_title {
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .order_title_data {
+        width: 277px;
+    }
+
+    .order_title_location_info {
+        margin-bottom: 10px;
+    }
+
+    .back_personal_office_container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        margin: 12px 0 20px 10px;
+        cursor: pointer;
+    }
+
+    .main_section_header {
+        margin-left: 16px;
+        border: none;
+        padding: 0;
+    }
+
+    .back_personal_office_active {
+        display: none;
+        align-items: center;
+        gap: 12px;
+        height: 48px;
+        padding: 0px 15px;
+        background: #43B02A;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        cursor: pointer;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .visible {
+        display: flex;
+    }
+
+    .active_border {
+        border: 1px solid transparent;
+        border-radius: 8px;
+    }
+
+    .personal_office {
+        padding: 0px 8px;
+        border-radius: 4px;
+        border: 1px solid #F2F2F2;
+        background: #F2F2F2;
+        color: #888;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .booking_info {
+        color: #3B9C25;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #D9EFD4;
+    }
+
+    .orders_list_phone {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #D9EFD4;
+    }
+
+    .orders_item_header {
+        color: #111;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .orders_item_title {
+        margin-left: 30px;
+        color: #111;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .blur-background {
+        filter: blur(8px);
+    }
+}

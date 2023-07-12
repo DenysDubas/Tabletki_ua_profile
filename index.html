@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLETKI.UA</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER START -->
+    <section class="header_section">
+        <img src="./imgs/Logo_tabletki.png" alt="tabletki.ua">
+    </section>
+    <!-- HEADER END -->
+    <div class="sections_container">
+        <!-- MENU START -->
+        <section class="menu_section">
+            <div class="menu_section_container">
+                <h2 class="menu_section_header">Особистий кабінет</h2>
+                <img class="delete_phone" src="./imgs/delete.png" alt="delete">
+            </div>
+        </section>
+        <!-- MENU END -->
+
+        <!-- MAIN START -->
+        <section class="main_section">
+            <div class="main_section_container">
+                <div class="back_personal_office_container">
+                    <img src="./imgs/arrow-left.png" alt="arrow-left">
+                    <span class="personal_office">Особистий кабінет</span>
+                </div>
+                <h2 class="main_section_header">Мої броні</h2>
+                <div class="back_personal_office_active hidden">
+                    <img src="./imgs/arrow-left-w.png" alt="arrow-left">
+                    Мої броні
+                </div>
+                <div class="active_border">
+                    <div class="order_container desktop">
+                        <div class="order_title_wrapper">
+                            <div class="order_title">
+                                <div class="order_title_data">
+                                    <div class="data_date_container">
+                                        <span class="booking">Бронь створено</span>
+                                        <span class="booking_date">04.04.2023 в 09:45</span>
+                                    </div>
+                                    <div class="orders_list">№122010210, №122010212, №122010213</div>
+                                </div>
+                                <div class="order_title_location_info">
+                                    <div class="pharmacy_name">
+                                        Аптека TAS
+                                        <img src="./imgs/info_icon.png" alt="info">
+                                    </div>
+                                    <span class="pharmacy_work_time">
+                                        Відчинено до 21:00
+                                    </span>
+                                    <span class="pharmacy_address">
+                                        вул. Саперно-Слобідська 10, Київ
+                                    </span>
+                                </div> 
+                            </div>
+                            <div class="order_total_container">
+                                <div class="order_total">
+                                    <span class="amout_order">2 товара</span>
+                                    <span class="order_total_price">89,70 грн</span>
+                                </div>
+                                <div class="accordion">
+                                    <input
+                                        class="accordion-input"
+                                        type="checkbox"
+                                        id="tab1"
+                                    >
+                                    <label class="accordion-label" for="tab1"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info_message">
+                            <img src="./imgs/info_red.png" alt="info_icon">
+                            Назвіть додаткові номери бронювань для отримання рецептурних товарів
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="dropdown_container">
+                            <div class="dropdown_orders">
+                                <div class="dropdown_order_header">№122010210</div>
+                                <div class="dropdown_order_title">
+                                    <div class="dropdown_order_title_wrapper">
+                                        <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                        <div class="dropdown_order_title_discr">
+                                            <h3 class="title_discr_pill_name">Магнікор, таб. №30</h3>
+                                            <div class="title_discr_producer">Киевский витаминный завод</div>
+                                            <div class="title_discr_total_package">1 упаковка</div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown_order_title_price">79.77 грн</div>
+                                </div>
+                                <div class="dropdown_order_header">№122010212</div>
+                                <div class="dropdown_order_title">
+                                    <div class="dropdown_order_title_wrapper">
+                                        <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                        <div class="dropdown_order_title_discr">
+                                            <h3 class="title_discr_pill_name">Каптопрес-дарница табл.<br> 50мг/25мг №20</h3>
+                                            <div class="title_discr_producer">Дарница чао (украина, киев)</div>
+                                            <img class="receipt_img" src="./imgs/Receipt.png" alt="receipt_img">
+                                            <div class="title_discr_total_package">1 упаковка</div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown_order_title_price">79.77 грн</div>
+                                </div>
+                                <div class="dropdown_order_header">№122010213</div>
+                                <div class="dropdown_order_title">
+                                    <div class="dropdown_order_title_wrapper">
+                                        <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                        <div class="dropdown_order_title_discr">
+                                            <h3 class="title_discr_pill_name">Каптопрес-дарница табл.<br> 50мг/25мг №20</h3>
+                                            <div class="title_discr_producer">Дарница чао (украина, киев)</div>
+                                            <img class="receipt_img" src="./imgs/Receipt.png" alt="receipt_img">
+                                            <div class="title_discr_total_package">1 упаковка</div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown_order_title_price">79.77 грн</div>
+                                </div>
+                                <div class="dropdown_orders_total_price">
+                                    <span>Всього:</span>
+                                    <span class="all_price">100.77 грн</span>
+                                </div>
+                            </div>
+                            <div class="dropdown_path">
+                                <div class="path_booking_date_wrapper">
+                                    <div class="path_booking_date_imgs">
+                                        <img src="./imgs/Union.png" alt="union_img">
+                                        <img src="./imgs/Vector 3.png" alt="">
+                                    </div>
+                                    <div class="path_booking_date_container">
+                                        Бронь створено 04.04.2023 09:43:41
+                                        <div class="path_booking_date_message">
+                                            Бронь передано аптеці, 
+                                            очікуйте підтвердження
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="path_proccesing">
+                                    <div class="path_proccesing_imgs">
+                                        <img src="./imgs/Union (1).png" alt="union_img">
+                                        <img class="dot_img" src="./imgs/Vector 3 (1).png" alt="dot_img">
+                                        <img src="./imgs/Union (1).png" alt="union_img">
+                                    </div>
+                                    <div class="path_proccesing_info">
+                                        <span>Обробка</span>
+                                        <span>Очікує вас</span>
+                                    </div>
+                                </div>
+                                <div class="path_detele">
+                                    <img src="./imgs/delete.png" alt="delete_img">
+                                    ВІДМІНИТИ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order_container phone">
+                    <div class="order_title_wrapper">
+                        <div class="order_title">
+                            <div class="order_title_data">
+                                <div class="data_date_container">
+                                    <span class="booking">Бронь створено</span>
+                                    <span class="booking_date">04.04.2023 в 09:45</span>
+                                </div>
+                                <div class="orders_list">№122010210, №122010212, №122010213</div>
+                            </div>
+                            <div class="accordion_phone">
+                                <input
+                                    class="accordion-input_phone"
+                                    type="checkbox"
+                                    id="tab1"
+                                >
+                                <label class="accordion-label_phone" for="tab1"></label>
+                            </div>
+                        </div>
+                        <div class="info_message">
+                            <img src="./imgs/info_red.png" alt="info_icon">
+                            Назвіть додаткові номери бронювань для отримання рецептурних товарів
+                        </div>
+                        <div class="booking_info">Бронь передано аптеці, очікуйте підтвердження</div>
+                        <div class="order_title_location_info">
+                            <div class="pharmacy_name">
+                                Аптека TAS
+                                <img src="./imgs/info_icon.png" alt="info">
+                            </div>
+                            <span class="pharmacy_work_time">
+                                Відчинено до 21:00
+                            </span>
+                            <span class="pharmacy_address">
+                                вул. Саперно-Слобідська 10, Київ
+                            </span>
+                        </div>
+                        <ul class="orders_list_phone">
+                            <h3 class="orders_item_header">№122010210:</h3>
+                            <li class="orders_item_title">Магнікор, таб. №30</li>
+                            <h3 class="orders_item_header">№122010213 (за рецептом):</h3>
+                            <li class="orders_item_title">Каптопрес-дарница табл. 50мг/25мг №20</li>
+                            <h3 class="orders_item_header">№122010213 (за рецептом):</h3>
+                            <li class="orders_item_title">Каптопрес-дарница табл. 50мг/25мг №20</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="dropdown_phone">
+                    <div class="dropdown_container">
+                        <div class="dropdown_path">
+                            <div class="path_booking_date_wrapper">
+                                <div class="path_booking_date_imgs">
+                                    <img src="./imgs/Union.png" alt="union_img">
+                                    <img src="./imgs/Vector 3.png" alt="">
+                                </div>
+                                <div class="path_booking_date_container">
+                                    Бронь створено 04.04.2023 09:43:41
+                                    <div class="path_booking_date_message">
+                                        Бронь передано аптеці, 
+                                        очікуйте підтвердження
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="path_proccesing">
+                                <div class="path_proccesing_imgs">
+                                    <img src="./imgs/Union (1).png" alt="union_img">
+                                    <img class="dot_img" src="./imgs/Vector 3 (1).png" alt="dot_img">
+                                    <img src="./imgs/Union (1).png" alt="union_img">
+                                </div>
+                                <div class="path_proccesing_info">
+                                    <span>Обробка</span>
+                                    <span>Очікує вас</span>
+                                </div>
+                            </div>
+                            <div class="path_detele">
+                                <img src="./imgs/delete.png" alt="delete_img">
+                                ВІДМІНИТИ
+                            </div>
+                        </div>
+                        <div class="dropdown_orders">
+                            <div class="dropdown_order_header">№122010210</div>
+                            <div class="dropdown_order_title">
+                                <div class="dropdown_order_title_wrapper">
+                                    <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                    <div class="dropdown_order_title_discr">
+                                        <h3 class="title_discr_pill_name">Магнікор, таб. №30</h3>
+                                        <div class="title_discr_producer">Киевский витаминный завод</div>
+                                        <div class="title_discr_total_package">1 упаковка</div>
+                                    </div>
+                                </div>
+                                <div class="dropdown_order_title_price">79.77 грн</div>
+                            </div>
+                            <div class="dropdown_order_header">№122010212</div>
+                            <div class="dropdown_order_title">
+                                <div class="dropdown_order_title_wrapper">
+                                    <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                    <div class="dropdown_order_title_discr">
+                                        <h3 class="title_discr_pill_name">Каптопрес-дарница табл.<br> 50мг/25мг №20</h3>
+                                        <div class="title_discr_producer">Дарница чао (украина, киев)</div>
+                                        <img class="receipt_img" src="./imgs/Receipt.png" alt="receipt_img">
+                                        <div class="title_discr_total_package">1 упаковка</div>
+                                    </div>
+                                </div>
+                                <div class="dropdown_order_title_price">79.77 грн</div>
+                            </div>
+                            <div class="dropdown_order_header">№122010213</div>
+                            <div class="dropdown_order_title">
+                                <div class="dropdown_order_title_wrapper">
+                                    <img class="pill_img" src="./imgs/Rectangle 5.png" alt="">
+                                    <div class="dropdown_order_title_discr">
+                                        <h3 class="title_discr_pill_name">Каптопрес-дарница табл.<br> 50мг/25мг №20</h3>
+                                        <div class="title_discr_producer">Дарница чао (украина, киев)</div>
+                                        <img class="receipt_img" src="./imgs/Receipt.png" alt="receipt_img">
+                                        <div class="title_discr_total_package">1 упаковка</div>
+                                    </div>
+                                </div>
+                                <div class="dropdown_order_title_price">79.77 грн</div>
+                            </div>
+                            <div class="dropdown_orders_total_price">
+                                <span>Всього:</span>
+                                <span class="all_price">100.77 грн</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN END -->
+    </div>
+
+    <!-- FOOTER START -->
+    <section class="footer_section">
+        <div class="footer_section_container">
+            <h2 class="footer_section_header">
+                Самолікування може бути шкідливим для вашого здоров'я
+            </h2>
+            <img src="./imgs/Logo Footer.png" alt="tabletki.ua">
+        </div>
+    </section>
+    <!-- FOOTER END -->
+</body>
+</html>
