@@ -2,6 +2,9 @@
 TABLETKI.UA
 This is a simple HTML and CSS website for TABLETKI.UA. It provides information about personal orders and allows users to manage their bookings.
 
+DEMO:
+https://denysdubas.github.io/tabletki_ua_profile/
+
 Getting Started
 To get started with the project, follow these steps:
 
